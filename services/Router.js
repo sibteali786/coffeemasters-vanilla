@@ -26,7 +26,6 @@ const Router = {
         break;
       case "/order":
         pageElement = document.createElement("order-page");
-        pageElement.textContent = "Your order";
         break;
       default:
         if (route.startsWith("/product-")) {
